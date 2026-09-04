@@ -1,0 +1,7 @@
+webview-capi/
+wv2go/
+sdk/
+build/
+*.exe
+*.dll
+*.lib
