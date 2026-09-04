@@ -1,0 +1,151 @@
+{
+    go_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    swift_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    ["tool_target_webview-mini_windows_x64_cxx"] = {
+        program = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\cl.exe]],
+        toolchain_info = {
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc",
+            arch = "x64",
+            plat = "windows"
+        },
+        toolname = "cl"
+    },
+    fpc_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    msvc_arch_x64_plat_windows = {
+        vs = "2026",
+        arch = "x64",
+        __checked = "2026",
+        plat = "windows",
+        vcvars = {
+            VSCMD_VER = "18.9.2",
+            VSCMD_ARG_TGT_ARCH = "x64",
+            LIBPATH = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;D:\VS\Product\VC\Tools\MSVC\14.51.36231\lib\x64;D:\VS\Product\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;D:\Windows Kits\10\UnionMetadata\10.0.26100.0;D:\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319]],
+            VCToolsRedistDir = [[D:\VS\Product\VC\Redist\MSVC\14.51.36231\]],
+            UCRTVersion = "10.0.26100.0",
+            DevEnvdir = [[D:\VS\Product\Common7\IDE\]],
+            VisualStudioVersion = "18.0",
+            VCToolsInstallDir = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\]],
+            VSCMD_ARG_HOST_ARCH = "x64",
+            ExtensionSdkDir = [[C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs]],
+            WindowsSdkDir = [[D:\Windows Kits\10\]],
+            INCLUDE = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\include;D:\VS\Product\VC\Tools\MSVC\14.51.36231\ATLMFC\include;D:\VS\Product\VC\Auxiliary\VS\include;D:\Windows Kits\10\include\10.0.26100.0\ucrt;D:\Windows Kits\10\\include\10.0.26100.0\\um;D:\Windows Kits\10\\include\10.0.26100.0\\shared;D:\Windows Kits\10\\include\10.0.26100.0\\winrt;D:\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um]],
+            VS180COMNTOOLS = [[D:\VS\Product\Common7\Tools\]],
+            VCToolsVersion = "14.51.36231",
+            WindowsSdkBinPath = [[D:\Windows Kits\10\bin\]],
+            WindowsSDKVersion = "10.0.26100.0",
+            UniversalCRTSdkDir = [[D:\Windows Kits\10\]],
+            VSCMD_ARG_app_plat = "Desktop",
+            WindowsSdkVerBinPath = [[D:\Windows Kits\10\bin\10.0.26100.0\]],
+            WindowsLibPath = [[D:\Windows Kits\10\UnionMetadata\10.0.26100.0;D:\Windows Kits\10\References\10.0.26100.0]],
+            VSInstallDir = [[D:\VS\Product\]],
+            LIB = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;D:\VS\Product\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64;D:\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;D:\Windows Kits\10\\lib\10.0.26100.0\\um\x64]],
+            VCIDEInstallDir = [[D:\VS\Product\Common7\IDE\VC\]],
+            PATH = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;D:\VS\Product\Common7\IDE\VC\VCPackages;D:\VS\Product\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\VS\Product\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\VS\Product\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\;D:\VS\Product\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;D:\VS\Product\Team Tools\DiagnosticsHub\Collector;D:\VS\Product\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;D:\Windows Kits\10\bin\10.0.26100.0\\x64;D:\Windows Kits\10\bin\\x64;D:\VS\Product\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\VS\Product\Common7\IDE\;D:\VS\Product\Common7\Tools\;D:\APP\scoop\apps\miniconda3\current\condabin;C:\Program Files\Git\bin;D:\app\scoop\apps\pwsh\current;C:\Program Files\Git\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\APP\Code\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\AtlasModules;C:\WINDOWS\AtlasModules\Tools;C:\WINDOWS\AtlasModules\Scripts;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\PuTTY\;C:\Program Files\Neovide\;C:\Program Files\Seelen\Seelen UI;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;D:\app\scoop\apps\openjdk21\current\bin;D:\app\scoop\apps\pnpm\current\bin;D:\app\scoop\apps\temurin21-jdk\current\bin;D:\app\scoop\apps\elasticsearch\current\bin;C:\Users\liuqi\go\bin;D:\app\scoop\apps\git\current\cmd;D:\app\scoop\persist\bun\bin;D:\app\scoop\persist\uv\tools\shims;D:\app\scoop\persist\uv\python\shims;C:\Users\liuqi\AppData\Local\codegraph\current\bin;D:\app\scoop\apps\python\current\Scripts;D:\app\scoop\apps\python\current;D:\app\scoop\apps\anaconda3\current\App\Scripts;D:\app\scoop\apps\miniconda3\current\scripts;D:\app\scoop\apps\miniconda3\current\Library\bin;C:\Users\liuqi\.local\bin;D:\APP\scoop\apps\python311\current;D:\APP\scoop\apps\python311\current\Scripts;C:\Users\liuqi\AppData\Local\Programs\Python\Launcher\D:\app\scoop\apps\pwsh\current;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\APP\Code\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\AtlasModules;C:\WINDOWS\AtlasModules\Tools;C:\WINDOWS\AtlasModules\Scripts;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Neovide\;C:\Program Files\Seelen\Seelen UI;D:\app\scoop\apps\gcc\current\bin;C:\Users\liuqi\AppData\Local\hermes\hermes-agent\venv\Scripts;C:\Users\liuqi\AppData\Local\hermes\bin;C:\Users\liuqi\.kimi-code\bin;D:\app\scoop\apps\llvm\current\bin;D:\android_sdk\cmdline-tools\latest\bin;D:\app\scoop\apps\LaTeX\current\texmfs\install\miktex\bin\x64;\Scripts;D:\app\scoop\apps\rustup\current\.cargo\bin;D:\app\scoop\apps\starship\current;D:\app\scoop\shims;C:\Users\liuqi\AppData\Local\Microsoft\WindowsApps;C:\Users\liuqi\AppData\Roaming\npm;C:\Users\liuqi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\liuqi\AppData\Local\Microsoft\WinGet\Packages\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe;D:\APP\Zed\bin;C:\Users\liuqi\AppData\Local\Microsoft\WinGet\Packages\TaurusXin.ncmdump_Microsoft.Winget.Source_8wekyb3d8bbwe;D:\tool\bin;C:\Users\liuqi\AppData\Local\SurrealDB;C:\Users\liuqi\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Users\liuqi\AppData\AndroidCLI;C:\Users\liuqi\.lmstudio\bin;D:\APP\scoop\apps\obsidian\current;C:\Users\liuqi\.dotnet\tools;D:\Code\dump\chat-export;C:\Users\liuqi\bin;C:\Users\liuqi\AppData\Local\Microsoft\WinGet\Links;D:\APP\pentest-tools;D:\VS\Product\VC\Tools\Llvm\x64\bin;D:\VS\Product\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\VS\Product\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;D:\VS\Product\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;D:\VS\Product\VC\vcpkg]],
+            VCInstallDir = [[D:\VS\Product\VC\]]
+        },
+        vcarchs = {
+            "arm",
+            "arm64",
+            "arm64ec",
+            "x64",
+            "x86"
+        },
+        __global = true,
+        vs_sdkver = "10.0.26100.0",
+        vs_toolset = "14.51.36231"
+    },
+    ["tool_target_webview-mini_windows_x64_ld"] = {
+        program = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\link.exe]],
+        toolchain_info = {
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc",
+            arch = "x64",
+            plat = "windows"
+        },
+        toolname = "link"
+    },
+    ["tool_target_webview-mini_windows_x64_cc"] = {
+        toolchain_info = {
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc",
+            arch = "x64",
+            plat = "windows"
+        },
+        program = [[D:\VS\Product\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\cl.exe]],
+        toolname = "cl"
+    },
+    nasm_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    rust_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    yasm_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    clang_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        plat = "windows"
+    },
+    cuda_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    dotnet_arch_x64_plat_windows = {
+        __global = true,
+        sdkdir = [[C:\Program Files\dotnet\sdk\10.0.400]],
+        sdkver = "10.0.400",
+        bindir = [[C:\Program Files\dotnet]],
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    zig_arch_x64_plat_windows = {
+        zig_version = "0.16.0",
+        zig = [[D:\APP\scoop\apps\zvm\current\data\bin\zig.exe]],
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    gfortran_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = true,
+        plat = "windows"
+    },
+    nim_arch_x64_plat_windows = {
+        __global = true,
+        arch = "x64",
+        __checked = false,
+        plat = "windows"
+    }
+}

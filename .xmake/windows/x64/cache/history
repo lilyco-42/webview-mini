@@ -1,0 +1,9 @@
+{
+    cmdlines = {
+        "xmake build",
+        [[xmake lua D:\app\scoop\apps\xmake\current\modules\private\utils\statistics.lua]],
+        [[xmake lua D:\app\scoop\apps\xmake\current\actions\build\cleaner.lua]],
+        "xmake f -p windows -a x64 -c",
+        "xmake build"
+    }
+}
