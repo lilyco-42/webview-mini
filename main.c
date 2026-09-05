@@ -4,7 +4,7 @@
 
 #ifdef _WIN32
 #include <windows.h>
-int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, PWSTR cmd, int show) {
+int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR cmd, int show) {
     (void)hInst; (void)hPrev; (void)cmd; (void)show;
 #else
 int main(void) {

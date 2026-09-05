@@ -1,6 +1,4 @@
-// webview.cpp - Minimal WebView2 wrapper
-// Single source file, no STL, C++17
-// Supports: Windows 10+ (WebView2 Runtime required)
+// webview.cpp - WebView2 静态库编译单元 (webview/webview 融合头)
+// 构建静态库: g++ -c webview.cpp -DWEBVIEW_STATIC -O2 -std=c++17 -I<WebView2 SDK include> 
+// 预编译产物见 lib/libwebview.a (MinGW-w64 x64); C 消费者链接时需加 -lstdc++
 #include "webview.h"
-// This file intentionally left minimal - all logic is in webview.h
-// Add custom implementations here if needed
