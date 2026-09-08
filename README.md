@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="docs/banner.svg" width="720" alt="banner">
+</div>
+
 # webview-mini
 
 Minimal C/C++ WebView2 wrapper for Windows - single header, xmake, STL-free.

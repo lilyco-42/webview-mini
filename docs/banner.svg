@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" font-family="system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1408"/><stop offset="1" stop-color="#431407"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#fdba74"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="url(#bg)"/>
+  <circle cx="540" cy="30" r="80" fill="#fb923c" opacity="0.08"/>
+  <text x="552" y="164" font-size="44" font-weight="700" fill="#fb923c" opacity="0.30" text-anchor="end" font-family="Consolas,monospace">&lt;/&gt;</text>
+  <rect x="0" y="0" width="6" height="200" fill="url(#ac)"/>
+  <rect x="36" y="46" height="34" rx="17" width="90" fill="#fb923c" opacity="0.14" stroke="#fb923c"/>
+  <text x="81" y="69" font-size="15" fill="#fdba74" text-anchor="middle">C/C++</text>
+  <text x="36" y="126" font-size="32" font-weight="700" fill="#f8fafc">webview-mini</text>
+  <text x="36" y="158" font-size="17" fill="#fdba74">最小 C/C++ WebView2 封装 · 单头文件 · 200KB exe · 零 STL</text>
+</svg>
