@@ -21,15 +21,14 @@ Minimal C/C++ WebView2 wrapper for Windows - single header, xmake, STL-free.
 
 ## Quick Start
 
+两条路都需要 MinGW-w64 —— 仓库里的 `lib/libwebview.a` 是 MinGW-w64 x86_64 产物。
+
 ### xmake (recommended)
 ```bash
 xmake
 ```
 
 ### CMake
-
-需要 MinGW-w64（仓库里的 `lib/libwebview.a` 是 MinGW-w64 x86_64 产物）：
-
 ```bash
 cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
