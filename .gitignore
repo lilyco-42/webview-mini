@@ -5,3 +5,4 @@ build/
 *.exe
 *.dll
 *.lib
+.xmake/
